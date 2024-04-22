@@ -1,0 +1,7 @@
+/etc/init.d/networking restart
+/etc/init.d/quagga restart
+
+
+# only SSH
+iptables -A FORWARD -m state --state RELATED,ESTABILISHED -j ACCEPT
+iptables -A FORWARD -p tcp ! -dport 22 -j DROP

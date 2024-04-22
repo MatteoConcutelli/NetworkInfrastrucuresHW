@@ -1,0 +1,5 @@
+ssh -NL 22:200.0.2.1:1194 myuser1@s1
+
+# in client.conf change the remote in "remote 127.0.0.1 22"
+#then
+openvpn root/client.conf
