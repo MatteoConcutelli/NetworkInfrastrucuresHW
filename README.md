@@ -2,6 +2,7 @@
 
 **Objective:** Build and manage a robust network infrastructure using **Kathara**, focusing on advanced configurations, security, and traffic management. This assignment dives deep into practical aspects of network engineering, from OSPF routing to VPN setup and traffic analysis.  
 
+> [[Homework description]](hw.pdf) [[Kathara folder]](/HW)
 ---
 
 ## 📝 **Assignment Overview**  
